@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.ball {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+#ball1 { background: rgb(223, 0, 0); opacity: 0.75; left: 100px; top: 100px; }
+#ball2 { background: rgb(0, 0, 255); opacity: 0.75; left: 250px; top: 100px; }
+#ball3 { background: rgb(0, 255, 0); opacity: 0.75; left: 400px; top: 100px; }
